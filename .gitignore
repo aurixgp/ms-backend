@@ -1,0 +1,49 @@
+# ---------- Maven ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# ---------- Java ----------
+*.class
+*.jar
+!**/src/main/**/*.jar
+hs_err_pid*
+replay_pid*
+
+# ---------- Spring Boot / application ----------
+uploads/
+logs/
+*.log
+spring.log
+
+# ---------- Secrets ----------
+.env
+.env.local
+.env.*.local
+!.env.example
+application-local.yml
+application-local.properties
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---------- Eclipse / VS Code ----------
+.classpath
+.project
+.settings/
+bin/
+.vscode/*
+!.vscode/extensions.json
+
+# ---------- Système ----------
+.DS_Store
+Thumbs.db
+desktop.ini
